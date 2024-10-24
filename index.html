@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html class="scrool_effect-page">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="icon" href="" type="image/gif" sizes="16x16" />
+		<title>jisan</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="css-file/nav.css"/>
+		<link rel="stylesheet" href="css-file/home.css"/>
+		<link rel="stylesheet" href="css-file/about.css"/>
+		<link rel="stylesheet" href="css-file/service.css"/>
+		<link rel="stylesheet" href="css-file/progress.css"/>
+		<link rel="stylesheet" href="css-file/footer.css"/>
+		<link rel="stylesheet" href="css-file/blog.css"/>
+		<link rel="stylesheet" href="css-file/contact.css"/>
+		<link rel="stylesheet" href="css-file/resent.css"/>
+		
+	</head>
+	<body >
+		
+
+	<nav class="nav-position">
+	
+		<ul class="slide_ber">
+			<div class="logo-or-cross-menu">
+				<div class="logo-img-posi"><img src="image/me1.png" alt="showImage" class="logo" style=""/></div>
+				<div class="clos-img-posi"><img src="icon/close.png" class="cross_button" style="width: 30px; height: 30px;" onclick="closeSlideber()" onclick="aniClose()"/></div>
+				
+			</div>
+			<!--mobile view-->
+			<li class="no_effect"><a class="hide_mobile-a" href="#Home"><img class="showMobile_icon" src="icon/menu-icon/home.svg" />Home</a></li>
+			<li class="no_effect"><a class="hide_mobile-a" href="#Blog"><img class="showMobile_icon" src="icon/menu-icon/blogger.svg"/>Blog</a></li>
+			<li class="no_effect"><a class="hide_mobile-a" href="#Servide"><img class="showMobile_icon" src="icon/menu-icon/server.svg">Service</a></li>
+			<li class="no_effect"><a class="hide_mobile-a" href="#Contact"><img class="showMobile_icon" src="icon/menu-icon/contact.svg">Contact</a></li>
+			<li class="no_effect"><a class="hide_mobile-a" href="#About"><img class="showMobile_icon" src="icon/menu-icon/about.svg">About</a></li>
+			
+			
+		</ul>
+		<!--desktop view-->
+		<ul>
+		<!--onclick="showSection()" use scroll on position parfect width screen-->
+			<img  src="image/me1.png"  class="logo_image-mobile"/>
+			<li class="hideMobile"><a class="hide_mobile-a" onclick="showSection()" href="#Home"><img class="hideMobil-Icon" src="icon/menu-icon/home.svg"/> Home</a></li>
+			<li class="hideMobile"><a class="hide_mobile-a" onclick="showSection()" href="#Blog"><img class="hideMobil-Icon" src="icon/menu-icon/blogger.svg"/> Blog</a></li>
+			<li class="hideMobile"><a class="hide_mobile-a" onclick="showSection()" href="#Service"><img class="hideMobil-Icon" src="icon/menu-icon/server.svg"/> Service</a></li>
+			<li class="hideMobile"><a class="hide_mobile-a" onclick="showSection()" href="#Contact"><img class="hideMobil-Icon" src="icon/menu-icon/contact.svg"/> Contact</a></li>
+			<li class="hideMobile"><a class="hide_mobile-a" onclick="showSection()" href="#About"><img class="hideMobil-Icon" src="icon/menu-icon/about.svg"/> About</a></li>
+			<img src="icon/open.png" class="menu_button" onclick="showSlideber()" onclick="aniShow()" style="width: 30px; height: 30px;"/>
+		</ul>
+		
+			<!--
+	<nav>
+		<img src="main-logo.png" class="image_width"/>
+		<ul class="ul_width">
+			
+			<li>home</li>
+			<li>blog</li>
+			<li>service</li>
+			<li>login</li>
+			<li>create new</li>
+		</ul>
+	</nav>
+	-->
+	</nav>
+	
+
+
+	
+	<!--home page or start-->
+	<section  id="Home" class="home-sec blockAnitransform" >
+		
+		<div class="innerTow">
+		
+			
+			<div class="myPic">
+				<div class="info">
+					<h2>hi,</h2>
+					<h3>I'm <span style="color: #ff4321;">Jisan</span></h3>
+					<!--animation-->
+						<div class="animation-effect">
+							<div class="container">
+								<span  class="text first-text">As a </span>
+								<span style="font-family: " class="text sec-text"> jisna</span>
+							</div>
+						</div>
+					<!--animation-->
+					
+					<p>I’m a web designer. Creating visually appealing and user-friendly focus on delivering modern, responsive designs.
+					</p>
+					
+				</div>
+				<div class="socila_icon">
+					<a class="icon_positon" href="https://github.com/prgmrjisan"><img src="social-Icon/github.png" alt="open image" class="social-icon-width"/></a>
+					<a class="icon_positon" href="#behance"><img src="social-Icon/behance.png" alt="close image" class="social-icon-width"/></a>
+					<a class="icon_positon" href="#linkdin"><img src="social-Icon/message.png" alt="open image" class="social-icon-width"/></a>
+					<a class="icon_positon" href="https://wa.me/8801879718633"><img src="social-Icon/whatsapp.png" alt="close image" class="social-icon-width"/></a>
+				
+				</div>
+				<div class="button-info">
+					<button class="btn-S "><a class="btn-s_c-s" target="blank"  href="pdf/myCv.pdf">download cv</a></button>
+					<button class="btn-S "><a class="btn-s_c-s" href="#About">about me</a></button>
+				</div>
+			</div>
+			
+			
+			<div class="myPic">
+				<div class="child-pic">
+				<img src="image/pattern.png" class="child-pic-pattern"/>
+				<img src="image/mypic2.png"  class="child-pic-myPic"/>
+				</div>
+			</div>
+			
+			<div class="clear"></div>
+		
+		</div>
+	</section>
+
+		<div class="scroll-sec-top" id="mybtn">
+			<a class="scroll-to-top" >
+				<img onclick="scrolltopimg()" class="scroll-to-top-img" src="icon/topArrow.svg"/>
+			</a>
+		</div>
+		
+	<!--service section start-->
+	<section id="Service" class="service-per blockAnitransform">
+		<div class="service-child">
+			<h1 class="servide-litle">SERVECE</h1>
+		
+		<!--repeat this co-child div sec again-->
+		
+			<div class="service-co-child"> 
+					<div class="servide-co-one">
+						<div class="service-logo-i">
+						<!--use any image or icon this tag-->
+							<img class="sevice-img" src="icon/full-stack-developer-icon.svg" alt="analysis image"/>
+						</div>
+						<div class="servce-content">
+							<h1 class="service-h">Website Design & Debugging</h1>
+							<p class="service-p">Create responsive websites using HTML, CSS, JS, and Bootstrap.</p>
+							<!--<a class="service-a" href="#"><button class="service-b">read..</button></a>-->
+						</div>
+					</div>
+				</div>
+			<div class="service-co-child"> 
+					<div class="servide-co-one">
+						<div class="service-logo-i">
+						<!--use any image or icon this tag-->
+							<img class="sevice-img" src="icon/web-design-brush-icon.svg" alt="analysis image"/>
+						</div>
+						<div class="servce-content">
+							<h1 class="service-h">Landing Page Design</h1>
+							<p class="service-p">Develop attractive, mobile-friendly landing pages for businesses or campaigns.</p>
+							
+						</div>
+					</div>
+				</div>
+				
+			<div class="service-co-child"> 
+					<div class="servide-co-one">
+						<div class="service-logo-i">
+						<!--use any image or icon this tag-->
+							<img class="sevice-img" src="icon/administrator-developer-icon.svg" alt="analysis image"/>
+						</div>
+						<div class="servce-content">
+							<h1 class="service-h">Website Maintenance</h1>
+							<p class="service-p">Update and maintain client websites for improved functionality and design.</p>
+							
+						</div>
+					</div>
+				</div>	
+			<div class="service-co-child"> 
+					<div class="servide-co-one">
+						<div class="service-logo-i">
+						<!--use any image or icon this tag-->
+							<img class="sevice-img" src="icon/website-ui-icon.svg" alt="analysis image"/>
+						</div>
+						<div class="servce-content">
+							<h1 class="service-h">Website Redesign UI Dev.</h1>
+							<p class="service-p">Modernize existing websites with a responsive. Build front-end user interfaces web app.</p>
+							
+						</div>
+					</div>
+				</div>	
+			<div class="service-co-child"> 
+					<div class="servide-co-one">
+						<div class="service-logo-i">
+						<!--use any image or icon this tag-->
+							<img class="sevice-img" src="icon/cross-platform-icon.svg" alt="analysis image"/>
+						</div>
+						<div class="servce-content">
+							<h1 class="service-h">Responsive Web Development:</h1>
+							<p class="service-p">Ensure that websites look good and function well on various devices and screen sizes.</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="service-co-child"> 
+					<div class="servide-co-one">
+						<div class="service-logo-i">
+						<!--use any image or icon this tag-->
+							<img class="sevice-img" src="icon/interactivity-icon.svg" alt="analysis image"/>
+						</div>
+						<div class="servce-content">
+							<h1 class="service-h">JavaScript Interactions</h1>
+							<p class="service-p">Add interactive features like sliders, carousels, dropdowns, and modals to websites.</p>
+							
+						</div>
+					</div>
+				</div>
+				
+			<div class="ser-clear"></div>
+		</div>
+	</section>
+	
+	<!--pregress section start-->
+	
+	<div  class="innerTow-p blockAnitransform">
+				<h1 class="skil-h">My Skill</h1>
+				
+				<div class="myPic-p">
+				<div class="container">
+					<div class="progress-container">
+						<h4>HTML</h4>
+						<div class="progress-bar">
+							<span data-width="90%"></span>
+						</div>
+					</div>
+					<div class="progress-container">
+						<h4>CSS</h4>
+						<div class="progress-bar">
+							<span data-width="80%"></span>
+						</div>
+					</div>
+					<div class="progress-container">
+						<h4>JavaScript</h4>
+						<div class="progress-bar">
+							<span data-width="70%"></span>
+						</div>
+					</div>
+					<div class="progress-container">
+						<h4>BootStrap</h4>
+						<div class="progress-bar">
+							<span data-width="60%"></span>
+						</div>
+					</div>
+				</div>
+					
+				</div>
+				
+				
+				<div class="myPic-p">
+					
+					<img src="image/analysis-image.png" class="child-pic-p"/>
+				</div>
+			
+			<div class="clear"></div>
+		
+		</div>
+	<!--pregress section end-->
+	
+	
+	<!--resent section start-->
+	
+		<section class="service-per-Rec  blockAnitransform">
+		<div class="service-child-Rec">
+			<h1 class="servide-litle-Rec">Latest Works</h1>
+		
+		<!--repeat this co-child div sec again-->
+		
+				<div class="service-co-child-Rec"> 
+					<div class="servide-co-one-Rec">
+						<div class="servce-content-Rec">
+							<img src="image/dole.png"/>
+							<p class="service-p">dole to Make The World A Healthier Place</p>
+							<a class="service-a" href="https://www.dole.com/en"><button class="service-b-Rec">See..</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="service-co-child-Rec"> 
+					<div class="servide-co-one-Rec">
+						<div class="servce-content-Rec">
+							<img src="image/which.png"/>
+							<p class="service-p">Which? is the UK’s consumer champion. As an organisation we’re not for profit and all for protecting consumers – a powerful force for good, here to make life simpler, fairer and safer for everyone.</p>
+							<a class="service-a" href="https://www.which.co.uk/"><button class="service-b-Rec">See..</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="service-co-child-Rec"> 
+					<div class="servide-co-one-Rec">
+						<div class="servce-content-Rec">
+							<img src="image/unfi.png"/>
+							<p class="service-p">UNFI started as a small natural food distributor for local grocers </p>
+							<a class="service-a" href="https://www.unfi.com/"><button class="service-b-Rec">See..</button></a>
+						</div>
+					</div>
+				</div>
+			
+			<div class="ser-clear-Rec"></div>
+		</div>
+	</section>
+	<!--resent section end-->
+	
+	
+	<!--blog section start-->
+	<section id="Blog" class="blog-sec blockAnitransform">
+		<div class="blog-headin">
+			<h3>Get insight the From My Blog</h3>
+		</div>
+		<div class="inner-1">
+		
+			<div class="col-1">
+				<div class="col-child">
+					<img src="singel-page-blog/blog/responsive.png"/>
+					<h1>Create a Responsive Design</h1>
+					<p>Responsive design is a web design approach where a website adapts to different screen sizes. </p>
+					<a href="file:///C:/Users/Admin/Desktop/text/fore%20file/protfolio-home/singel-page-blog/responsive.html"     target="blank" ><button class="" >read..</button></a>
+				</div>				
+			</div>
+			<div class="col-1">
+				<div class="col-child">
+					<img src="singel-page-blog/blog/ui-ux.png"/>
+					<h1>Basic Concept of Web Design UI/UX</h1>
+					<p>Web design involves the process of arranging the layout, content, and visual elements of a website. Its primary goal is to create a website that is visually .. </p>
+					<a href="file:///C:/Users/Admin/Desktop/text/fore%20file/protfolio-home/singel-page-blog/ui-ux-design.html"   target="blank"><button class="" >read..</button></a>
+				</div>				
+			</div>
+			<div class="col-1">
+				<div class="col-child">
+					<img src="singel-page-blog/blog/mobileview.png"/>
+					<h1>Responsive Design Quickly with Bootstrap</h1>
+					<p>Bootstrap is a popular CSS framework that allows for fast and easy creation of responsive websites. It comes with pre-built  .. </p>
+					<a href= "file:///C:/Users/Admin/Desktop/text/fore%20file/protfolio-home/singel-page-blog/bootstrap-res.html"  target="blank"><button class=""  >read..</button></a>
+				</div>				
+			</div>
+			<div class="col-1">
+				<div class="col-child">
+					<img src="singel-page-blog/blog/jsDainamic.png"/>
+					<h1>Dynamic and Interactive with JavaScript</h1>
+					<p>JavaScript is a powerful programming language that allows you to make websites dynamic and interactive. It can be used to update content, create animations .. </p>
+					<a href="file:///C:/Users/Admin/Desktop/text/fore%20file/protfolio-home/singel-page-blog/dianamic-js.html"    target="blank" ><button class="">read..</button></a>
+				</div>				
+			</div>
+			<div class="col-1">
+				<div class="col-child">
+					
+					
+					<a href="file:///C:/Users/Admin/Desktop/text/fore%20file/protfolio-home/blog.html"  target="blank" ><button class="viewallBlog">view <br/>all Blog</button></a>
+				</div>				
+			</div>
+			<div class="clear"></div>				
+		</div>
+	</section>
+	<!--blog section end-->
+	
+	
+	<!--contact from  start-->
+		<div id="Contact" class="contact-f-1  blockAnitransform">
+				<h2 class="contact-title-0">Contact Us</h2>
+				<form action="https://api.web3forms.com/submit" method="POST" class="contact-f-c-1">
+					<input type="hidden" name="access_key" value="8dccfc36-eca8-4266-b1bd-70bf9d8bc739">
+						<label class="conIn-s-1"><img class="input-buton-icon" style="width: 20px; margin: 0px; margin-bottom: -3px; backgroud: orange;" src="icon/menu-icon/signature.svg"/> Name:</label><br/><input placeholder="Write Name" class="conNamBox-1" type="name" name="name" /> <br/>
+						<label class="conIn-s-1"><img class="input-buton-icon" style="width: 20px; margin: 0px; margin-bottom: -3px; backgroud: white;" src="icon/menu-icon/email-symbol.svg"/> Email:</label><br/><input placeholder="Write Email" class="conEmiaBox-2" type="email" name="email" /> <br/>
+						<label class="conIn-s-1"><img class="input-buton-icon" style="width: 20px; margin: 0px; margin-bottom: -3px; backgroud: white;" src="icon/menu-icon/comment.svg"/> Text:</label><br/><textarea placeholder="Write comment" class="contexBox-1" type="text" name="textbox"></textarea><br/>
+						<input class="consubBox-1" type="Submit" name="send" />
+				</form>
+		</div>
+		
+	<!--contact from end-->
+	
+	<!--about content-->
+			
+			<div id="About" class="aboou-p0 blockAnitransform">
+				
+				<div class="aboou-p-c1">
+					<img class="about-i-0" src="image/myPicabout.jpg"/>
+				</div>
+				<div class="aboou-p-c2">
+					<div class="about-con1">
+						<h1  class="about-title-1">ABOUT US</h1>
+						<h2 class="about-h-1">Md Jisan</h2>
+						<h4 class="about-h-2">Front-End Web designer</h4>
+						<p class="about-p-1">I’m a web designer with Two years of experience creating visually appealing and user-friendly websites. Skilled in HTML, CSS, JavaScript, and design tools like Adobe Creative Suite and Figma, I focus on delivering modern, responsive designs.<!-- Outside of work, I enjoy [hobbies or interests].--> Let’s connect!</p>
+						
+						<p>
+							<span><img class="about-e-d" src="icon/menu-icon/mail-w.svg"/></span><span class="about-s-c-n">prgmrjisan@gmail.com</span>
+						</P><p>
+							<span><img class="about-e-d" src="icon/menu-icon/contact-w.svg"/></span><span class="about-s-c-n">+880 1879718633</span>
+						</P>
+					</div>
+				</div>
+			</div>
+		
+		<!--about content-->
+	
+	<!--footer section start-->
+	
+	<div class="foo-con-p blockAnitransform">
+			<div class="foo-con-c">
+				<img class="foo-ml" src="image/prgmrjisan.png"/>
+				<p class="foo-dic">I’m a web designer. Creating visually appealing and user-friendly focus on delivering modern, responsive designs.
+				</p>
+			</div>
+			<div class="foo-con-c footer-con-a">
+				<div class="footer-con-b">
+					<h3 class="foo-st1">Service</h3>
+					<a class="foo-link"  href="">Website Design</a>
+					<a class="foo-link"  href="">UI/UX Design</a>
+					<a class="foo-link"  href="">Website Re-Design</a>
+					<a class="foo-link"  href="">Responsive Design</a>
+					<a class="foo-link"  href="">Design & Debugging</a>
+					<a class="foo-link"  href="">JS Interactions</a>
+					<a class="foo-link"  href="">Website Maintenance</a>
+				</div>
+				<div class="footer-con-b">
+					<h3 class="foo-st1">Menu</h3>
+					<a class="foo-link" onclick="showSection()"  href="#Home">Home</a>
+					<a class="foo-link" onclick="showSection()"  href="#Blog">Blog</a>
+					<a class="foo-link" onclick="showSection()"  href="#Service">Service</a>
+					<a class="foo-link" onclick="showSection()"  href="#About">About</a>
+					<a class="foo-link" onclick="showSection()"  href="#Contact">Contact</a>
+				</div>
+			</div>
+			<div class="foo-con-c">
+				<h3 class="foo-st2">connected</h3>
+				<div class="foo-social">
+				<a href=""><img class="foo-ml1" src="social-Icon/behance.png"/></a>
+				<a href="https://github.com/prgmrjisan"><img class="foo-ml1" src="social-Icon/github.png"/></a>
+				<a href=""><img class="foo-ml1" src="social-Icon/message.png"/></a>
+				<a href="https://wa.me/8801879718633"><img class="foo-ml1" src="social-Icon/whatsapp.png"/></a>
+				</div>
+				<div class="foo-send">
+					<input class="foo-inp" type="email" name="email" placeholder="send email"/>
+					<button class="foo-btn"><a class=" foo-an" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSPFdRTwSgBrXxCGLFsdGsctWGLRSqbLtxdLvQBsdDxtDtNmDzRFXNnmvsrmjmcMjsczMbSL">Send</a>
+					</button>
+				</div>
+			</div>
+			
+			<footer class="foo-tc">
+				<span class="foo-ts">Md Jisan &copy; 2024</span> 
+				
+			</footer>
+		</div>
+			
+	<!--footer section end-->
+
+
+	
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/progress.js"></script>
+	
+	</body>
+	
+</html>
