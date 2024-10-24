@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>media query</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="singel-page.css">
+	<link rel="stylesheet" href="../css-file/nav.css"/>
+	<link rel="stylesheet" href="../css-file/footer.css"/>
+</head>
+	<body>
+	
+	<!--nabvar start-->
+	
+	<nav class="nav-position">
+	
+				<ul class="slide_ber">
+			<div class="logo-or-cross-menu">
+				<div class="logo-img-posi"><img src="../image/me1.png" alt="showImage" class="logo" style=""/></div>
+				<div class="clos-img-posi"><img src="../icon/close.png" class="cross_button" style="width: 30px; height: 30px;" onclick="closeSlideber()" onclick="aniClose()"/></div>
+				
+			</div>
+			<!--mobile view-->
+			<li class="no_effect"><a class="hide_mobile-a" href="file:///C:/Users/Admin/Desktop/text/fore%20file/protfolio-home/index.html"><img class="showMobile_icon" src="../icon/menu-icon/home.svg" />Home</a></li>
+			
+			<li class="no_effect"><a class="hide_mobile-a" href="file:///C:/Users/Admin/Desktop/text/fore%20file/protfolio-home/blog.html"><img class="showMobile_icon" src="../icon/menu-icon/blogger.svg"/>Blog</a></li>
+			<!--
+			<li class="no_effect"><a class="hide_mobile-a" href="#Servide"><img class="showMobile_icon" src="../icon/menu-icon/server.svg">Service</a></li>
+			<li class="no_effect"><a class="hide_mobile-a" href="#Contact"><img class="showMobile_icon" src="../icon/menu-icon/contact.svg">Contact</a></li>
+			<li class="no_effect"><a class="hide_mobile-a" href="#About"><img class="showMobile_icon" src="../icon/menu-icon/about.svg">About</a></li>
+			-->
+			
+		</ul>
+		<!--desktop view-->
+		<ul>
+		<!--onclick="showSection()" use scroll on position parfect width screen-->
+			<img  src="../image/me1.png"  class="logo_image-mobile"/>
+			<li class="hideMobile"><a class="hide_mobile-a" onclick="showSection()" href="file:///C:/Users/Admin/Desktop/text/fore%20file/protfolio-home/index.html"><img class="hideMobil-Icon" src="../icon/menu-icon/home.svg"/> Home</a></li>
+			<li class="hideMobile"><a class="hide_mobile-a" onclick="showSection()" href="file:///C:/Users/Admin/Desktop/text/fore%20file/protfolio-home/blog.html"><img class="hideMobil-Icon" src="../icon/menu-icon/blogger.svg"/> Blog</a></li>
+			<!--
+			<li class="hideMobile"><a class="hide_mobile-a" onclick="showSection()" href="#Service"><img class="hideMobil-Icon" src="../icon/menu-icon/server.svg"/> Service</a></li>
+			<li class="hideMobile"><a class="hide_mobile-a" onclick="showSection()" href="#Contact"><img class="hideMobil-Icon" src="../icon/menu-icon/contact.svg"/> Contact</a></li>
+			<li class="hideMobile"><a class="hide_mobile-a" onclick="showSection()" href="#About"><img class="hideMobil-Icon" src="../icon/menu-icon/about.svg"/> About</a></li>
+			-->
+			<img src="../icon/open.png" class="menu_button" onclick="showSlideber()" onclick="aniShow()" style="width: 30px; height: 30px;"/>
+			
+		</ul>
+			<!--
+	<nav>
+		<img src="main-logo.png" class="image_width"/>
+		<ul class="ul_width">
+			
+			<li>home</li>
+			<li>blog</li>
+			<li>service</li>
+			<li>login</li>
+			<li>create new</li>
+		</ul>
+	</nav>
+	-->
+	</nav>
+	<!--nabvar end-->
+
+	<section class="blog-sec">
+		
+		<div class="inner">
+			
+			
+			<div class="col-parent">
+				<div class="col">
+					<div class="col-child">
+						<h1 class="blogArtical">Basic Concept of Web Design UI/UX</h1>
+						<img class="blogArtical-img" src="blog/ui-ux.png"/>
+						
+						<p class="blockContent">
+						Web design involves the process of arranging the layout, content, and visual elements of a website. Its primary goal is to create a website that is visually appealing and functional. A good web design is not only attractive but also easy to use. Key components include choosing the right colors, typography, and layout to ensure a balance between aesthetics and usability.
+
+
+						<br/>
+						<small class="parahedding">User Experience (UX) Design</small>
+						<br/>
+						UX design focuses on how a user interacts with the website. It ensures that the website is easy to navigate, the content is accessible, and the user’s needs are met efficiently. A well-designed UX makes complex features simple to understand and improves the overall user experience. Key elements of good UX design include fast loading times, intuitive navigation, and mobile-friendly interfaces.
+						Key elements of good UX design include fast loading times, intuitive navigation, and mobile-friendly interfaces
+
+						
+						<br/>
+						<small class="parahedding">User Interface (UI) Design::</small>
+						<br/>
+					
+						UX design focuses on how a user interacts with the website. It ensures that the website is easy to navigate,
+						
+						
+						<a class="morereadcon"  onclick="moreview()"> Show more..</a>
+						<span class="moreview" >
+						
+						  the content is accessible, and the user’s needs are met efficiently. A well-designed UX makes complex features simple to understand and improves the overall user experience. Key elements of good UX design include fast loading times, intuitive navigation, and mobile-friendly interfaces.
+						  
+						  <br/>
+						<small class="parahedding">User Interface (UI) Design:</small>
+						<br/>
+						  
+UI design deals with the visual elements of a website. It focuses on the look and feel, including colors, buttons, fonts, and icons. A well-executed UI design ensures that the site is visually appealing and user-friendly, making it easy for users to interact with the website and move between different sections effortlessly.
+
+						<!--<img class="morePageImg" src="blog/5.jpg" alt="page imge"/>-->
+						<br/>
+						<small class="parahedding"></small><br/>
+						
+
+						
+						<a class="moreEnd"  onclick="showlessend()"> show less.. </a>
+						</span> 
+						</p>
+						
+					</div>				
+				</div>
+				
+			
+			</div>
+			
+			<div class="side-show-blog">
+			
+					<div class="col-side">
+						<div class="col-child-s">
+							<img src="blog/responsive.png"/>
+							<h1>Create a Responsive Design</h1>
+							<p>Responsive design is a web design approach where a website adapts to different screen sizes.</p>
+							<a href="file:///C:/Users/Admin/Desktop/text/fore%20file/protfolio-home/singel-page-blog/responsive.html"><button class="">read..</button></a>
+						</div>
+					</div>
+				
+				<div class="col-side">
+						<div class="col-child-s">
+							<img src="blog/mobileview.png"/>
+							<h1>Responsive Design Quickly with Bootstrap</h1>
+							<p>Bootstrap is a popular CSS framework that allows for fast and easy creation of responsive websites. It comes with pre-built </p>
+							<a href="file:///C:/Users/Admin/Desktop/text/fore%20file/protfolio-home/singel-page-blog/bootstrap-res.html"><button class="">read..</button></a>
+						</div>
+					</div>
+					
+					<div class="col-side">
+						<div class="col-child-s">
+							<img src="blog/jsDainamic.png"/>
+							<h1>Dynamic and Interactive with JavaScript</h1>
+							<p>JavaScript is a powerful programming language that allows you to make websites dynamic and interactive. It can be used to update content, create animations</p>
+							<a href="file:///C:/Users/Admin/Desktop/text/fore%20file/protfolio-home/singel-page-blog/dianamic-js.html"><button class="">read..</button></a>
+						</div>
+					</div>
+				
+			</div>
+		
+			<div class="clear"></div>				
+
+
+		
+		</div>
+			<!--footer start-->
+		<!--footer section start-->
+	
+	<div class="foo-con-p blockAnitransform">
+			<div class="foo-con-c">
+				<img class="foo-ml" src="../image/prgmrjisan.png"/>
+				<p class="foo-dic">I’m a web designer. Creating visually appealing and user-friendly focus on delivering modern, responsive designs.
+				</p>
+			</div>
+			<div class="foo-con-c footer-con-a">
+				<div class="footer-con-b">
+					<h3 class="foo-st1">Service</h3>
+					<a class="foo-link"  href="">Website Design</a>
+					<a class="foo-link"  href="">UI/UX Design</a>
+					<a class="foo-link"  href="">Website Re-Design</a>
+					<a class="foo-link"  href="">Responsive Design</a>
+					<a class="foo-link"  href="">Design & Debugging</a>
+					<a class="foo-link"  href="">JS Interactions</a>
+					<a class="foo-link"  href="">Website Maintenance</a>
+				</div>
+				<div class="footer-con-b">
+					<h3 class="foo-st1">Menu</h3>
+					<a class="foo-link" onclick="showSection()"  href="#Home">Home</a>
+					<a class="foo-link" onclick="showSection()"  href="#Blog">Blog</a>
+					<a class="foo-link" onclick="showSection()"  href="#Service">Service</a>
+					<a class="foo-link" onclick="showSection()"  href="#About">About</a>
+					<a class="foo-link" onclick="showSection()"  href="#Contact">Contact</a>
+				</div>
+			</div>
+			<div class="foo-con-c">
+				<h3 class="foo-st2">connected</h3>
+				<div class="foo-social">
+				<a href=""><img class="foo-ml1" src="../social-Icon/behance.png"/></a>
+				<a href=""><img class="foo-ml1" src="../social-Icon/github.png"/></a>
+				<a href=""><img class="foo-ml1" src="../social-Icon/message.png"/></a>
+				<a href=""><img class="foo-ml1" src="../social-Icon/whatsapp.png"/></a>
+				</div>
+				<div class="foo-send">
+					<input class="foo-inp" type="email" name="email" placeholder="send email"/>
+					<button class="foo-btn"><a class=" foo-an" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSPFdRTwSgBrXxCGLFsdGsctWGLRSqbLtxdLvQBsdDxtDtNmDzRFXNnmvsrmjmcMjsczMbSL">Send</a>
+					</button>
+				</div>
+			</div>
+			
+			<footer class="foo-tc">
+				<span class="foo-ts">&copy; 2024 Md Jisan. All right reserved</span> 
+				
+			</footer>
+		</div>
+			
+	<!--footer section end-->
+	
+	<!--footer end-->
+	
+	</section>
+		<script src="singel-page.js"></script>
+		<script type="text/javascript" src="../js/script.js">
+	</script>
+	</body>
+		
+</html>

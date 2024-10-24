@@ -1,0 +1,226 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	/* font-family: open sans; */
+}
+nav{
+	position: sticky;
+	top: 0;
+	/* height: 8vh; */
+}
+body{
+	width: 1120px;
+	margin: auto;
+	
+}
+img.logo_image-mobile {
+    width: 140px;
+    /* margin-top: 22px; */
+    
+}
+img.logo {
+    margin: 0;
+    padding: 0% 0% -3% 18%;
+    /* margin-left: 13px; */
+    /* margin-top: 13px; */
+    /* background: #ffffff; */
+    margin-top: -5px;
+	width: 140px;
+}
+.nav-position{z-index: 2;/* height: 20px; *//* height: 100vh; */}
+
+.nav-position.sticky{
+   background: #f7f1e7;
+   /* box-shadow: inset 0px -3px 0px 0px rgb(5 231 211); */
+   z-index: 3;
+}
+
+nav img{
+	width: 69px;
+	/* height: 45px; */
+	margin: auto;
+	/* padding: 16px; */
+	margin: 24px;
+}nav ul{
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 50px;
+}nav li {
+    /* height: 17px; */
+    padding: 14px;
+    /* color: #0800ff; */
+    margin: 36ox;
+    /* padding: 0px 15px 0px 15px; */
+    font-size: 17px;
+    margin: 0px 1px 0px 3px;
+    transition: 0.5s;
+    margin-left: 9px 13px 6px 8px;
+    margin: 0px 8px 5px 8px;
+    /* margin: 0% 0% 0% 1%; */
+}nav img:first-child{
+	margin-right: auto;
+	/* margin-left: 50px; */
+	/* margin-right: 79px; */
+	/* padding: 10px; */
+	/* padding-left: 18px; */
+}
+
+.hideMobil-Icon {
+    width: 20px;
+    margin: 0px;
+    padding-top: 0px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    /* background: oldlace; */
+    padding: 0px 0px;
+	margin-bottom: -3px;
+}
+
+img.showMobile_icon {
+    width: 20px;
+    margin: 0;
+    padding: 0px 6px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: -3px;
+}
+/*other way try 
+.image_width{width: 12%; padding: 2px; margin: 2px;}
+.ul_width{width: 85%; float: right; margin: 05px}
+
+*/
+
+nav li a:hover{
+	
+	color: #003aff;
+	
+}
+.slide_ber{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 250px;
+	height: 1600px;
+	z-index: 999;
+	background-color: white;
+	box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+	display: none;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	/* transition: auto; */
+	/* transition-delay: 00.5s; */
+	transform: translate(0px, 0px);
+	/*filter: blur(2px);*/
+}
+.logo-or-cross-menu{/* width: 242px; */display: flex;width: 100%;}
+.logo-img-posi{/* width: 200px; */width: 100%;}
+.clos-img-posi{/* width: 101px; *//* padding: 2px; *//* margin: 2px; */margin-top: -6px;/* margin-right: 10px; */left: 0;top: 0;margin-left: 2px;}
+
+li.no_effect {
+    width: 216px;
+    
+    color: black;
+    
+	
+   
+}
+.no_effect:hover{
+    width: 216px;
+    color: balck;
+}
+.menu_button{display: none; margin-right: 1%;}
+
+img.cross_button {
+    /* padding: 0px; */
+    /* margin: 28px; */
+    margin-left: 13px;
+    margin: 0;
+    /* margin-right: -25px; */
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+img.logo {
+    margin: 0;
+    padding: 0% 0% -3% 18%;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+@media only screen and (min-width: 568px) and (max-width: 992px){
+	
+			body{
+			width: 100%;
+			
+		}
+		header {
+			position: sticky;
+			top: 0;
+		}
+		
+			
+}
+
+@media only screen and (min-width: 200px) and (max-width: 567px){
+	
+		body{
+			width: 100%;
+		}
+	
+	.hideMobile{
+		display: none;
+	}
+	.menu_button{
+		display: block;
+		/* margin: 4%; */
+		margin-top: 20px;
+		margin-right: 13px;
+		margin-left: 4%;
+		/* margin-bottom: 0; */
+	}
+	.logo_image-mobile{
+			    width: 74px;
+			    margin: 12px;
+			}
+			.slide_ber{
+				width: 100%;
+				z-index: 3;
+			}
+			.logo-or-cross-menu{width: 100%;/* display: flex; *//* background: #ebebeb; */height: 20;/* height: 8vh; *//* height: 8vh; */}
+          .logo-img-posi{width: 80%;/* height: 29px; *//* margin-top: 14px; *//* margin-left: 10px; */}
+		  
+		  img.cross_button {
+    /* padding: 0px; */
+    /* margin: 28px; */
+    margin-left: 13px;
+    /* margin: 0; */
+    /* margin-right: -25px; */
+    margin-top: 18px;
+    margin-left: 5px;
+    /* margin-right: 0px; */
+    /* margin-right: 21px; */
+}
+
+img.logo {
+    margin: 0;
+    padding: 0% 0% -3% 18%;
+    /* margin-left: 13px; */
+    /* margin-top: 13px; */
+    /* background: #ffffff; */
+    margin-top: -5px;
+	width: 140px;
+}
+		
+
+	
+}
+		  
+
+
+

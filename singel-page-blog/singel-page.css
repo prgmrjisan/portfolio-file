@@ -1,0 +1,162 @@
+*{
+	margin: 0; padding: 0;
+}
+.blog-sec{
+   
+}
+.inner{
+    width: 1120px;
+    margin: 0 auto;
+    display: flex;
+}.parahedding{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.col-parent{width: 58%; margin: 1%;}
+.side-show-blog{width: 28%;margin: 1%;/* float: left; */margin-top: 90px;}
+.col{width:96%; margin: 2%;}
+.col-side{/* width: 105%; */margin: 1%;float: left;/* width: 48%; *//* width: 20%; */}
+.col-side img{width: 100%;}
+.clear{
+	clear: both;
+}
+a.morereadcon{
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 0%;
+    color: #000000c7;
+}a.moreEnd{
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 0%;
+    color: #000000c7;
+}.morePageImg{/* margin: 2%; */width: 100%;height: auto;width: 80%;padding-top: 2%;padding-bottom: 2%;}
+
+h1.blogArtical {
+    font-weight: 500;
+    font-size: 200%;
+	 margin: 2%;
+}
+img.blogArtical-img {
+    padding-top: 2%;
+    padding-bottom: 2%;
+	 margin: 2%;
+}
+p.blockContent {
+    font-size: 122%;
+    line-height: 34px;
+     margin: 2%;
+}
+
+
+.col img{width: 100%;}
+.moreview{display: none;}
+.morereadcon{display: block;}
+a.moreEnd{display: block;}
+
+@media only screen and (min-width: 200px) and (max-width: 567px){
+	
+.inner{width: 100%;}
+
+.blog-headin{
+
+}
+.col{
+	
+
+}
+.clear{
+	
+}
+.col img{
+	width: 100%;}
+	
+.col h1{
+	
+}
+
+.col p{
+   
+
+    
+}
+.col a{}
+.col button{}
+
+.inner {
+    width: 100%;
+    display: block;
+}.col-parent {
+    width: 96%;
+    /* margin: 2%; */
+    margin-left: 2%;
+    margin-right: 2%;
+}.side-show-blog {
+    width: 96%;
+    margin: 3%;
+    /* float: left; */
+    /* display: flex; */
+}
+.col-child-s{
+    width: 100%;
+}
+.col-side {
+    /* width: 105%; */
+    margin: 1%;
+    float: left;
+    width: 48%;
+    /* width: 20%; */
+}
+	
+}
+
+
+@media only screen and (min-width: 568px) and (max-width: 992px){
+.inner{width: 100%;}
+
+.col{	
+	
+}
+.clear{
+	clear: both;
+}
+.col img{width: 100%;}
+
+.col h1{
+	
+}
+
+.col p{
+  
+}
+.col a{}
+.col button{}
+
+.inner {
+   
+}.col-parent {
+   
+}.side-show-blog {
+  
+}
+.col-child-s{
+  
+}.col-side {
+    /* width: 105%; */
+    margin: 1%;
+    /* float: left; */
+    /* width: 48%; */
+    /* width: 20%; */
+}.side-show-blog {
+    margin-top: 75px;
+}.side-show-blog {
+    width: 28%;
+    margin: 1%;
+    /* float: left; */
+    margin-top: 78px;
+}
+
+
+}
+

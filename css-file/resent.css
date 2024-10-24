@@ -1,0 +1,286 @@
+*{
+	margin: 0; padding: 0; font-family: myfirstFont; margin: 0 auto;
+}
+@font-face{
+	font-family: myfirstFont;
+	src: url(font/Poppins-Regular.ttf);
+	
+}
+body{
+	
+}
+.servide-litle-Rec{
+    margin-top: 10%;
+    margin-bottom: 4%;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.service-per-Rec{
+	/* width: 1120px; */
+	margin: 0 auto;
+	background: #fff;
+	height: auto;
+}
+.service-child-Rec{
+	width: 800px;
+	margin: 0 auto;
+	/*background: #ffffff;*/
+	/* height: 100vh; */
+	/* margin-top: 62px; */
+	margin-bottom: 10%;
+}
+
+.service-co-child-Rec {
+    width: 31%;
+    margin: 1%;
+    background: white;
+    display: inline-block;
+    margin-top: 39px;
+    transition: 0.5s;
+    border-radius: 25px;
+    /* box-shadow: 0 0 11px #ff0000; */
+    box-shadow: 0px 2px 0px 0px #f01616, 0px -2px 0px 0px #000296; transition: .5s;
+}.service-co-child-Rec:hover {
+    width: 31%;
+    margin: 1%;
+    background: white;
+    display: inline-block;
+    margin-top: 39px;
+    transition: 0.5s;
+    border-radius: 25px;
+    /* box-shadow: 0 0 11px #ff0000; */
+    box-shadow: -2px 0px 0px 0px #000296, 2px 0px 0px 0px #000296;
+}
+	.servide-co-one-Rec{
+	padding: 5%;
+	/* width: 100%; */
+	/* height: 100%; */
+	left: 0;
+	right: 0;
+}
+
+.service-logo-i-Rec{width: 70px;height: 70px;background: white;margin-top: -50px;margin-bottom: 13px;border: 5px solid #ffffff;border-radius: 50%;transition: 0.5s;/* border-top: #090909; *//* display: block; *//* overflow: hidden; */margin-left: 73px;/* border-bottom: 5px solid red; *//* border-left: 5px solid; */}
+img.sevice-img-Rec{width: 100%;width: 70px;height: 70px;/* border-radius: 100%; */background: #9494943d;border-radius: 50%;/* display: none; */align-items: center;justify-content: center;/* margin: 8%; */margin-top: 9%;}
+.servce-content-Rec{/* background: gray; */left: 0;/* right: -23px; *//* width: 86%; *//* margin-right: 16px; */}
+.ser-clear-Rec{clear: both;}
+img.sevice-img:hover{width: 100%;width: 70px;height: 70px;/* border-radius: 100%; */background: none; border-radius: 50%;/* display: none; */align-items: center;justify-content: center;/* margin: 8%; */margin-top: 0%;}
+.service-logo-i-Rec:hover{
+	/*transform: skew(15deg);
+	
+	transform: scale(1.5)
+	transform: rotateZ(3rad);*/
+	transform: rotateZ(360deg);
+	
+	background: lightblue;
+	/*transform: translate(-100px);
+	transform: scale(1.1);
+	transition: animate (infinity);*/
+}.service-co-child-Rec:hover{
+	/*transform: skew(15deg);
+	
+		transform: rotateZ(6rad);*/
+		transform: scale(1.2);
+	
+}
+.service-co-child-Rec:hover{
+	
+	box-shadow: lightblue;
+	}
+	
+	button.service-b-Rec {
+    border: none;
+    margin-left: 42%;
+    font-size: 103%;
+    /* padding: 0% 2%; */
+    border: 0%;
+    background: #f4ebeb;
+    border-radius: 10%;
+    color: #534d4d;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+}p.service-p-Rec {
+    /* text-align: justify; */
+    /* font-size: 108%; */
+}h1.service-h-Rec {
+    font-size: 140%;
+    /* margin: 2% 0%; */
+    margin: 5% 0%;
+}.about-con-Rec h2 {
+    /* padding: 15px; */
+    /* margin-left: 3vw; */
+    text-align: start;
+    margin-left: 30px;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 567px){
+	
+	
+	.service-logo-i-Rec:hover{
+	/*transform: skew(15deg);
+	
+	transform: scale(1.5)
+	transform: rotateZ(3rad);*/
+	transform: none;
+	
+	background: none;
+	/*transform: translate(-100px);
+	transform: scale(1.1);
+	transition: animate (infinity);*/
+}.service-co-child-Rec:hover{
+	/*transform: skew(15deg);
+	
+		transform: rotateZ(6rad);*/
+		transform: none;
+	
+}
+.service-co-child-Rec:hover{
+	
+	box-shadow: none;
+	}
+	
+	
+	
+	
+		.service-per-Rec{
+			width: 100%;
+			
+		}
+		
+		.service-child-Rec{
+		width: 100%;
+		height: 100%;
+		/* margin-top: 24px; */
+		/* margin-bottom: 5%; */
+		/* background: #0f0e0e; */
+	}
+		.service-co-child-Rec{
+	width: 88%;
+	margin: 6%;
+	background: #ffffff;
+	margin-top: 66px;
+	/* margin-bottom: 35px; */
+	/* margin-bottom: 8%; */
+	 box-shadow: 0px 1px 0px 0px #f01616, 0px -2px 0px 0px #000296;
+	}
+		
+	.servide-co-one-Rec{
+		/* padding: 5%; */
+		width: 90%;
+		height: 142%;
+		left: 0;
+		right: 0;
+		/* margin-bottom: 5px; */
+		background: #ececec;
+		border-radius: 9%;
+	}
+	
+	.service-logo-i-Rec{
+    text-align: center;
+    /* justify-content: space-around; */
+    margin: auto;
+    margin-top: -65px;
+    margin-bottom: 35px;
+    width: 80px;
+    height: 80px;
+    border-color: #ffffff;
+    background: #ececec;
+}
+.servce-content-Rec{}
+p.service-p-Rec {
+    text-align: justify;
+    font-size: 22px;
+    margin: 4% 0%;
+}h1.service-h-Rec {
+    font-size: 30px;
+    /* margin: 2% 0%; */
+    margin: 5% 0%;
+}
+
+	
+}
+	
+	
+
+@media only screen and (min-width: 568px) and (max-width: 911px){
+	
+		
+	.service-logo-i-Rec:hover{
+	/*transform: skew(15deg);
+	
+	transform: scale(1.5)
+	transform: rotateZ(3rad);*/
+	transform: none;
+	
+	background: none;
+	/*transform: translate(-100px);
+	transform: scale(1.1);
+	transition: animate (infinity);*/
+}.service-co-child-Rec:hover{
+	/*transform: skew(15deg);
+	
+		transform: rotateZ(6rad);*/
+		transform: none;
+	
+}
+.service-co-child-Rec:hover{
+	
+	box-shadow: none;
+	}
+	
+	
+	
+	.service-per-Rec{
+			width: 100%;
+			
+		}
+		.service-child-Rec{
+		width: 100%;
+		/*	padding-left: 2%;*/
+		justify-content: center;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.servide-co-one-Rec{
+		/* padding: 5%; 
+		width: 90%;
+		height: 100%;
+		left: 0;
+		right: 0;
+		/* margin-bottom: 5px; */
+		width: 90%;
+	}
+		.service-co-child-Rec{
+	width: 47%;
+	margin: 1.3%;
+	background: white;
+	margin-top: 70px;
+	/* margin-left: 1%; */
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+.service-logo-i-Rec{
+		text-align: center;
+		justify-content: space-around;
+		margin: auto;
+		margin-top: -56px;
+		margin-bottom: 21px;
+		align-items: center;
+	}
+	
+	.servce-content-Rec{
+		width: 100%;
+		height: 100%;
+	 }
+	 p.service-p-Rec {
+    text-align: justify;
+    font-size: 108%;
+   
+}h1.service-h-Rec {
+    font-size: 140%;
+    /* margin: 2% 0%; */
+}
+}

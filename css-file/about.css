@@ -1,0 +1,231 @@
+*{
+	margin: 0; padding: 0; font-family: myfirstFont;
+}
+@font-face{
+	font-family: myfirstFont;
+	src: url(font/Poppins-Regular.ttf);
+	
+}
+.aboou-p0{width: 1120px;display: flex;justify-content: center;background: #073B4c;/* border: none; *//* padding-bottom: 10px; */padding: 1px 0px;margin: 0% 0px;/* gap: 0; */}
+.aboou-p-c1{width: 400px;height: 500px;/* background: orange; */}
+.aboou-p-c2{width: 600px;height: 500px;/* background: blue; */}
+img.about-i-0{width: 390px;margin: 0px 5px;/* height: 500px; *//* border: 2px solid orange; */border-radius: 50%;border: 1px solid #118abc;margin-top: 41px;}
+.about-title-1{/* text-align: center; *//* font-size: 40px; *//* padding: 0px 0px; */color: white;/* background: black; *//* width: 1120px; *//* padding: 42px 0%; *//* margin: 0px 0px -2px 0px; */text-align: start;}
+.about-h-1{
+    padding: 3% 0%;
+    font-size: 30px;
+    width: 100%;
+}
+.about-h-2{
+    padding: 0% 0%;
+    font-size: 25px;
+    width: 100%;
+}
+.about-p-1{
+    font-size: 22px;
+    padding: 3% 0%;
+}
+.about-con1{
+    padding: 0% 0% 0% 4%;
+    /* background: orange; */
+    padding: 2% 8% 0% 8%;
+    /* height: 88%; */
+    color: #d7d7d7;
+    font-weight: 500;
+}
+img.about-e-d {
+    width: 20px;
+   
+    margin: 8px 6px -5px 0px;
+}
+span.about-s-c-n{
+    font-size: 18px;
+}
+@media screen and (max-width: 600px){
+	.about-title-1{text-align: center; font-size: 34px; padding: 0px 0px;  color: white; background: black;
+width: 100%; padding: 42px 0%;}
+	.aboou-p0{width: 100%;display: block;justify-content: center;}
+	
+	.aboou-p-c1{width: 100%;height: 500px;/* background: orange; */}
+	.aboou-p-c2{width: 100%;height: 500px;/* background: blue; */}
+	img.about-i-0{width: 100%;/* height: 100%; */border-radius: 50%;margn: 0% 0% 0% 10%;margin: 0% 0% 6% 0%;/* margin-left: 5%; *//* padding-left: 4px; */justify-content: center;align-items: center;display: flex;}
+	.about-h-1{
+    padding: 3% 0%;
+    font-size: 30px;
+    width: 100%;
+}
+.about-h-2{
+    padding: 0% 0%;
+    font-size: 23px;
+    width: 100%;
+}
+.about-p-1{
+    font-size: 23px;
+    padding: 3% 0%;
+}
+.about-con1{
+    padding: 0% 0% 0% 4%;
+    /* background: orange; */
+    padding: 8% 8% 0% 8%;
+    /* height: 88%; */
+    color: wheat;
+	height: 55vh;
+}
+}
+
+@media screen and (max-width: 911px){
+	
+	.about-title-1{text-align: start;/* font-size: 36px; *//* padding: 0px 0px; *//* color: white; *//* background: black; */width: 100%;padding: 0 0%;/* background: none; */background: none;}
+	.aboou-p0{width: 100%;/* display: flex; */justify-content: center;/* background: #000000e8; */}
+.aboou-p-c1{width: 100%;height: 500px;/* background: orange; */}
+.aboou-p-c2{width: 100%;height: 100%;/* background: blue; */padding-top: 0px;}
+img.about-i-0{width: 390px;margin: 0px 5px;/* height: 500px; *//* border: 2px solid orange; */border-radius: 50%;border: 1px solid purple;margin-top: 40px;}
+.about-us-1{text-align: center; font-size: 40px; padding: 0px 0px;}
+.about-h-1{
+    padding: 3% 0%;
+    font-size: 30px;
+    width: 100%;
+}
+.about-h-2{
+    padding: 0% 0%;
+    font-size: 25px;
+    width: 100%;
+}
+.about-p-1{
+    font-size: 22px;
+    padding: 3% 0%;
+    padding-bottom: 30px;
+}
+.about-con1 {
+    padding: 0% 0% 0% 4%;
+    /* background: orange; */
+    padding: 6% 8% 0% 6%;
+    /* height: 88%; */
+    color: #d7d7d7;
+    height: 100%;
+    /* color: white; */
+    height: auto;
+}
+}
+
+@media screen and (max-width: 475px){
+	
+	.about-title-1{text-align: start;/* font-size: 34px; */padding: 0px 0px;color: white;/* background: black; */width: 100%;/* padding: 42px 0%; */}
+	.aboou-p0{width: 100%;display: block;justify-content: center;}
+	
+	.aboou-p-c1 {
+    width: 99%;
+    height: 500px;
+    /* background: orange; */
+    box-sizing: 0px 0px 0px 0px green;
+    /* box-shadow: 0px 20px 17px 0px green; */
+    height: auto;
+}
+	.aboou-p-c2{width: 100%;height: 500px;/* background: blue; */}
+	img.about-i-0{width: 98%;height: 97%;box-shadow: 0px 26px 17px -1px #121311;}
+	.about-h-1{
+    padding: 3% 0%;
+    font-size: 30px;
+    width: 100%;
+}
+.about-h-2{
+    padding: 0% 0%;
+    font-size: 23px;
+    width: 100%;
+}
+.about-p-1{
+    font-size: 23px;
+    padding: 3% 0%;
+}
+.about-con1{
+    padding: 0% 0% 0% 4%;
+    /* background: orange; */
+    padding: 8% 8% 0% 8%;
+    /* height: 88%; */
+    color: wheat;
+    /* height: 100vh; */
+    /* padding: 31px; */
+}
+	
+}
+@media screen and (max-width: 660px){
+	
+	.about-title-1{text-align: start;/* font-size: 34px; */padding: 0px 0px;color: white;/* background: black; */width: 100%;/* padding: 42px 0%; */}
+	.aboou-p0{width: 100%;display: block;justify-content: center;}
+	
+	.aboou-p-c1 {
+    width: 99%;
+    height: 500px;
+    /* background: orange; */
+    box-sizing: 0px 0px 0px 0px green;
+    /* box-shadow: 0px 20px 17px 0px green; */
+    height: auto;
+}
+	.aboou-p-c2{width: 100%;height: 500px;/* background: blue; */}
+	img.about-i-0{width: 98%;height: 97%;box-shadow: 0px 26px 17px -1px #121311;}
+	.about-h-1{
+    padding: 3% 0%;
+    font-size: 30px;
+    width: 100%;
+}
+.about-h-2{
+    padding: 0% 0%;
+    font-size: 23px;
+    width: 100%;
+}
+.about-p-1{
+    font-size: 23px;
+    padding: 3% 0%;
+}
+.about-con1{
+    padding: 0% 0% 0% 4%;
+    /* background: orange; */
+    padding: 8% 8% 0% 8%;
+    /* height: 88%; */
+    color: wheat;
+    /* height: 100vh; */
+    /* padding: 31px; */
+    height: auto;
+}
+}
+
+
+@media screen and (max-width: 390px){
+	.about-title-1{text-align: start;/* font-size: 34px; */padding: 0px 0px;color: white;/* background: black; */width: 100%;/* padding: 42px 0%; */}
+	.aboou-p0{width: 100%;display: block;justify-content: center;}
+	
+	.aboou-p-c1 {
+    width: 99%;
+    height: 500px;
+    /* background: orange; */
+    box-sizing: 0px 0px 0px 0px green;
+    /* box-shadow: 0px 20px 17px 0px green; */
+    height: auto;
+}
+	.aboou-p-c2{width: 100%;height: 500px;/* background: blue; */}
+	img.about-i-0{width: 98%;height: 97%;box-shadow: 0px 26px 17px -1px #121311;}
+	.about-h-1{
+    padding: 3% 0%;
+    font-size: 30px;
+    width: 100%;
+}
+.about-h-2{
+    padding: 0% 0%;
+    font-size: 23px;
+    width: 100%;
+}
+.about-p-1{
+    font-size: 23px;
+    padding: 3% 0%;
+}
+.about-con1{
+    padding: 0% 0% 0% 4%;
+    /* background: orange; */
+    padding: 8% 8% 0% 8%;
+    /* height: 88%; */
+    color: wheat;
+    /* height: 100vh; */
+    /* padding: 31px; */
+    height: auto;
+}
+}
